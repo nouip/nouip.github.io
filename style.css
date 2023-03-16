@@ -1,0 +1,211 @@
+/* Reset default browser styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Set global font styles */
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #cccccc;
+}
+
+/* Style the header */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 2rem;
+	background-color: #afafbe;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+	font-size: 2rem;
+	color: #333;
+}
+
+header nav ul {
+	display: flex;
+	list-style: none;
+}
+
+header nav ul li {
+	margin-left: 1rem;
+}
+
+header nav ul li a {
+	display: block;
+	padding: 0.5rem;
+	color: #333;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+header nav ul li a:hover {
+	background-color: #85adad;
+	color: #fff;
+}
+
+/* Style the banner */
+.banner {
+	padding: 4rem 2rem;
+	background-image: url('banner.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #000;
+}
+
+.banner h2 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.banner p {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.banner button {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.banner button:hover {
+	background-color: #cccccc;
+	color: #333;
+}
+
+/* Style the services section */
+.services {
+	padding: 4rem 2rem;
+	background-color: #afafbe;
+	text-align: center;
+}
+
+.services h2 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+.services ul {
+	list-style: none;
+	margin-bottom: 2rem;
+}
+
+.services li {
+	margin-bottom: 1rem;
+}
+
+/* Style the about section */
+.about {
+	padding: 4rem 2rem;
+	background-color: #cccccc;
+	text-align: center;
+}
+
+.about h2 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+.about p {
+	margin-bottom: 2rem;
+}
+
+/* Style the contact section */
+.contact {
+	padding: 4rem 2rem;
+	background-color: #afafbe;
+	text-align: center;
+}
+
+.contact h2 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+.contact form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact label {
+	display: block;
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+}
+
+.contact input,
+.contact textarea {
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 1rem;
+	width: 100%;
+	max-width: 400px;
+}
+
+.contact textarea {
+	height: 150px;
+}
+
+.contact button {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	transition: all 0.2s ease-in-out
+}
+
+.contact button:hover {
+	background-color: #fff;
+	color: #333;
+	cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+	padding: 2rem;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+
+footer p {
+	margin-bottom: 1rem;
+}
+
+footer ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+footer ul li {
+	margin: 0 0.5rem;
+}
+
+footer ul li a {
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+footer ul li a:hover {
+	color: #afafbe;
+}
